@@ -1,0 +1,59 @@
+{
+  "output_file": "settings.json",
+  "DebugMode": {
+    "type": "checkbox",
+    "label": "Enable Debug Mode",
+    "value": false,
+    "tooltip": "If enabled, will log higher level of events.",
+    "group": "OPTIONS"
+  },
+  "OpenGithubDonateLink": {
+    "type": "button",
+    "label": "💚 Support on Github",
+    "tooltip": "Donate to support development",
+    "function": "OpenGithubDonateLink",
+    "wsevent": "EVENT_NONE"
+  },
+  "OpenPaypalDonateLink": {
+    "type": "button",
+    "label": "💙 Support on Paypal",
+    "tooltip": "Donate to support development",
+    "function": "OpenPaypalDonateLink",
+    "wsevent": "EVENT_NONE"
+  },
+  "OpenTwitchDonateLink": {
+    "type": "button",
+    "label": "💜 Support on Twitch",
+    "tooltip": "Donate to support development",
+    "function": "OpenTwitchDonateLink",
+    "wsevent": "EVENT_NONE"
+  },
+  "OpenFollowOnTwitchLink": {
+    "type": "button",
+    "label": "Follow Me On Twitch",
+    "tooltip": "Get Medal",
+    "function": "OpenFollowOnTwitchLink",
+    "wsevent": "EVENT_NONE"
+  },
+  "OpenDiscordLink": {
+    "type": "button",
+    "label": "JOIN DISCORD",
+    "tooltip": "Join Discord for updates and support",
+    "function": "OpenDiscordLink",
+    "wsevent": "EVENT_NONE"
+  },
+  "OpenReadMeLink": {
+    "type": "button",
+    "label": "Open ReadMe",
+    "tooltip": "Open ReadMe file",
+    "function": "OpenReadMeLink",
+    "wsevent": "EVENT_NONE"
+  },
+  "OpenScriptUpdater": {
+    "type": "button",
+    "label": "Check For Updates",
+    "tooltip": "Check for updates",
+    "function": "OpenScriptUpdater",
+    "wsevent": "EVENT_NONE"
+  }
+}
